@@ -135,23 +135,31 @@
 
 # Mini project
 
-first_number = input("Enter First number: ")
-operator = input("Enter operator(+,-,*,/,%) : ")
-second_number = input("Enter second number : ")
+# first_number = input("Enter First number: ")
+# operator = input("Enter operator(+,-,*,/,%) : ")
+# second_number = input("Enter second number : ")
 
-first_number = int(first_number)
-second_number = int(second_number)
+# first_number = int(first_number)
+# second_number = int(second_number)
 
-if operator == "+":
-    print(first_number+second_number)
-elif operator == "-":
-    print(first_number-second_number)
-elif operator == "*":
-    print(first_number*second_number)
-elif operator == "/":
-    print(first_number/second_number)
-elif operator == "%":
-    print(first_number%second_number)
-else : 
-    print("Invalid Operations")        
+# if operator == "+":
+#     print(first_number+second_number)
+# elif operator == "-":
+#     print(first_number-second_number)
+# elif operator == "*":
+#     print(first_number*second_number)
+# elif operator == "/":
+#     print(first_number/second_number)
+# elif operator == "%":
+#     print(first_number%second_number)
+# else : 
+#     print("Invalid Operations")        
 
+
+
+
+
+#   ------------>>>>>>>>   Range   ------------>>>>>>
+
+# numbers = range(5) # 0,1,2,3,4,5
+# print(numbers)
