@@ -236,6 +236,11 @@ while i < len(marks):
     print(marks[i])
     i+=1
 
+# Printing all the value of array using FOR loop
+for i in range(len(marks)):
+    print("FOR loop:",marks[i])
+
+
 # Clear the array
 
 marks.clear()
