@@ -248,20 +248,31 @@
 
 #------------------->>>>>>> Break and Continue keywords     -------------->>>>>>>>>>>
 
-students = ["name1","name2","name3","name4","name5"]
+# students = ["name1","name2","name3","name4","name5"]
 
-for i in students:
-    if i == "name4":
-        break;
-    print(i)
+# for i in students:
+#     if i == "name4":
+#         break;
+#     print(i)
 
-for i in range(len(students)):
-    if students[i] == "name4":
-        continue;
-    print(students[i])
-
-
+# for i in range(len(students)):
+#     if students[i] == "name4":
+#         continue;
+#     print(students[i])
 
 
+
+
+
+# ------------>>>>>>>>>>   Tupple   -------------------->>>>>>>>>>>>
+
+# Tupples are immutable we cant do such operation like insertion, append and those kinds of operation
+marks = (71,78,98,89,90,90,990,90)
+
+#  2 operation that can done on tupples
+
+print(marks.count(90))  # will count how many times 90 appears in marsk
+
+print(marks.index(98))
 
 
