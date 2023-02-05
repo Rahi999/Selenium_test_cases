@@ -20,3 +20,8 @@ tony_age = 51
 is_genius = True
 
 print(name,tony_age,is_genius)
+
+
+# Taking input from user
+name = input("What is your name? :")
+print("Hello " + name)
