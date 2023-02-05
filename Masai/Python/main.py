@@ -267,12 +267,21 @@
 # ------------>>>>>>>>>>   Tupple   -------------------->>>>>>>>>>>>
 
 # Tupples are immutable we cant do such operation like insertion, append and those kinds of operation
-marks = (71,78,98,89,90,90,990,90)
+# marks = (71,78,98,89,90,90,990,90)
 
-#  2 operation that can done on tupples
+# #  2 operation that can done on tupples
 
-print(marks.count(90))  # will count how many times 90 appears in marsk
+# print(marks.count(90))  # will count how many times 90 appears in marsk
 
-print(marks.index(98))
+# print(marks.index(98)) # will print the index of 98
 
 
+
+#--------->>>>>>>>> SETS   ------------>>>>>>
+
+marks = {9,8,4,5,3,2,00,1,9,9,9}
+print(marks)
+
+for score in marks:
+    print(score)
+ 
