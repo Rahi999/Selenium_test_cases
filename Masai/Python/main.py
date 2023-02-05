@@ -54,11 +54,14 @@
 # ------------>>>>>   STRING    -------->>>>>>>>
 
 name = "Tony Stark"
-print(name.upper())
-print(name.lower())
-print(name.find("Stark"))  # Will return index(5) of S in the "Tony Stark"
-print(name.replace("Tony Stark", "Ironmane")) # Will replace the value of name("TOny Stark") with "Ironman";
-print(name.replace("Stark", "Ironman"))
-print(name.replace("T","M"))
-print(name)
+# print(name.upper())
+# print(name.lower())
+# print(name.find("Stark"))  # Will return index(5) of S in the "Tony Stark"
+# print(name.replace("Tony Stark", "Ironmane")) # Will replace the value of name("TOny Stark") with "Ironman";
+# print(name.replace("Stark", "Ironman"))
+# print(name.replace("T","M"))
+# print(name)
 
+print("T" in name) #will check if T is available inside the name if yes then it will return True else False
+print("Stark" in name)
+print("s" in name)
