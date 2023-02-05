@@ -24,4 +24,11 @@ print(name,tony_age,is_genius)
 
 # Taking input from user
 name = input("What is your name? :")
-print("Hello " + name)
+# print("Hello " + name)
+
+
+# Task
+# Tony is Secretly a superhero. Ask him for his superhero name & show it on the terminal
+
+superhero_name = input("Who is your Superhero? :")
+print(superhero_name)
