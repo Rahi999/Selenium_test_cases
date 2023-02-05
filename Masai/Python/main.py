@@ -223,3 +223,20 @@ print(marks)
 marks.insert(0,  19)
 marks.insert(2, 17)
 print(marks) 
+
+print(99 in marks) # True
+
+
+print(len(marks))  # return the length of the array
+
+
+# Printing all the value of array using while loop
+i = 0
+while i < len(marks):
+    print(marks[i])
+    i+=1
+
+# Clear the array
+
+marks.clear()
+print(marks)    #--->>>  []
