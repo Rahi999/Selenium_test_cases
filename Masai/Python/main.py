@@ -279,9 +279,18 @@
 
 #--------->>>>>>>>> SETS   ------------>>>>>>
 
-marks = {9,8,4,5,3,2,00,1,9,9,9}
+# marks = {9,8,4,5,3,2,00,1,9,9,9}
+# print(marks)
+
+# for score in marks:
+#     print(score)
+ 
+
+# --------------->>>>>>>>   OBJECTS  --------------->>>>>>>>>>>>>
+marks = {"english":90,"Math" : 91, "Chemistry" : 92}
+print(marks["Chemistry"])
+marks["Physics"] = 97
 print(marks)
 
-for score in marks:
-    print(score)
- 
+marks["Physics"] = 99
+print(marks)
