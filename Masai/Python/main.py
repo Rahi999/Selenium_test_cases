@@ -94,9 +94,24 @@
 #  ------------->>>>>   Comparison Operators   --------->>>>>>>>>>>>>>>
 
 
+# print(3 > 2)
+# print( 3 < 2)
+# print( 3 <= 2)
+# print(3 == 2)
+# print(3 == 3)
+# print(3 != 2)
+
+
+
+# --------->>>>>> Logical Operators   ------------>>>>>>>>>>
+
+# or operator
+print(2 > 3 or 2 > 1)
+
+# and operator
+print(3 > 2 and 2 < 1)
+
+# not operator
 print(3 > 2)
-print( 3 < 2)
-print( 3 <= 2)
-print(3 == 2)
-print(3 == 3)
-print(3 != 2)
+print(not 3 > 2)
+
