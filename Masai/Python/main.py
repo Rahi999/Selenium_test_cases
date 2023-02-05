@@ -36,7 +36,16 @@ print(name,tony_age,is_genius)
 
 
 # Type conversion
+# int() -->> integer
 
-old_age = input("Enter your old age :")
-new_age = int(old_age) + 2
-print("Your new age is: ", new_age)
+# old_age = input("Enter your old age :")
+# new_age = int(old_age) + 2
+# print("Your new age is: ", new_age)
+
+
+# Printing sum of 2 numbers
+
+first_number = input("Enter first number : ")
+second_number = input("Enter Second number : ")
+sum = int(first_number) + int(second_number)
+print("Sum of numbers is : ", sum)
