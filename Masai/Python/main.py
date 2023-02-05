@@ -1,25 +1,25 @@
 # Printing string(Hello world);
-print("Hello, World!")
+# print("Hello, World!")
 
 # Defining Variables;
-name = "Rahim Ansari"
-age = 19
-is_Maried = False
+# name = "Rahim Ansari"
+# age = 19
+# is_Maried = False
 
 # Changing value of same variable's name
-name = "Ahil"
-age = 19.0
+# name = "Ahil"
+# age = 19.0
 
-print(name,age,is_Maried)
+# print(name,age,is_Maried)
 
 # Task 
 # Add a person with name "Tony Stark", Tony's age is 51 years old, Tony is a genius
 
-name = str("Tony Stark")
-tony_age = 51
-is_genius = True
+# name = str("Tony Stark")
+# tony_age = 51
+# is_genius = True
 
-print(name,tony_age,is_genius)
+# print(name,tony_age,is_genius)
 
 
 # Taking input from user
@@ -45,7 +45,14 @@ print(name,tony_age,is_genius)
 
 # Printing sum of 2 numbers
 
-first_number = input("Enter first number : ")
-second_number = input("Enter Second number : ")
-sum = int(first_number) + int(second_number)
-print("Sum of numbers is : ", sum)
+# first_number = input("Enter first number : ")
+# second_number = input("Enter Second number : ")
+# sum = int(first_number) + int(second_number)
+# print("Sum of numbers is : ", sum)
+
+
+# ------------>>>>>   STRING    -------->>>>>>>>
+
+name = "Tony Stark"
+print(name.upper())
+print(name)
