@@ -299,7 +299,28 @@
 
 #   --------->>>>>>>>>>>  FUNCTION   ------------->>>>>>>>>>>
 #  Module Functions
-from math import sqrt
-from math import *
-print(sqrt(4))
-print(sqrt(16))
+# from math import sqrt
+# from math import *
+# print(sqrt(4))
+# print(sqrt(16))
+
+
+# Self Created Functions
+
+def function_name(a,b,c):
+    if(a == b == c):
+        print(a+b)
+
+function_name(1,1,1)
+
+
+def printSum(first,second) : 
+    print(first+second)
+
+    
+
+def printNames(name1, name2 = "Rahim Ansari"):
+    print(name1,name2)
+    
+printSum(1, 3)  
+printNames("Md") 
