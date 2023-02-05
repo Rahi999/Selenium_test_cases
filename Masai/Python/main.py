@@ -202,46 +202,66 @@
 
 # ----------->>>>>>>>>  ARRAY   ----------->>>>>>>>>>
 
-marks = [95,78,77, "maths"]
-print(marks)
-print(marks[0],marks[2])
-print(marks[-1])  # Print the last item
-print(marks[-2]) # Print the secod last item
-print(marks[0:2]) # 0:2 is the indexes from 0 to 1, it will print all the items between 0 to 1 indexes
-print(marks[1:3])
+# marks = [95,78,77, "maths"]
+# print(marks)
+# print(marks[0],marks[2])
+# print(marks[-1])  # Print the last item
+# print(marks[-2]) # Print the secod last item
+# print(marks[0:2]) # 0:2 is the indexes from 0 to 1, it will print all the items between 0 to 1 indexes
+# print(marks[1:3])
 
-for score in marks:
-    print("Score is :",score)
-
-
-# push function --->>>> append function
-marks.append(99)
-print(marks)
-
-# shift function --->>>>  insert(index, value)
-
-marks.insert(0,  19)
-marks.insert(2, 17)
-print(marks) 
-
-print(99 in marks) # True
+# for score in marks:
+#     print("Score is :",score)
 
 
-print(len(marks))  # return the length of the array
+# # push function --->>>> append function
+# marks.append(99)
+# print(marks)
+
+# # shift function --->>>>  insert(index, value)
+
+# marks.insert(0,  19)
+# marks.insert(2, 17)
+# print(marks) 
+
+# print(99 in marks) # True
 
 
-# Printing all the value of array using while loop
-i = 0
-while i < len(marks):
-    print(marks[i])
-    i+=1
-
-# Printing all the value of array using FOR loop
-for i in range(len(marks)):
-    print("FOR loop:",marks[i])
+# print(len(marks))  # return the length of the array
 
 
-# Clear the array
+# # Printing all the value of array using while loop
+# i = 0
+# while i < len(marks):
+#     print(marks[i])
+#     i+=1
 
-marks.clear()
-print(marks)    #--->>>  []
+# # Printing all the value of array using FOR loop
+# for i in range(len(marks)):
+#     print("FOR loop:",marks[i])
+
+
+# # Clear the array
+
+# marks.clear()
+# print(marks)    #--->>>  []
+
+#------------------->>>>>>> Break and Continue keywords     -------------->>>>>>>>>>>
+
+students = ["name1","name2","name3","name4","name5"]
+
+for i in students:
+    if i == "name4":
+        break;
+    print(i)
+
+for i in range(len(students)):
+    if students[i] == "name4":
+        continue;
+    print(students[i])
+
+
+
+
+
+
