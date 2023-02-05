@@ -195,5 +195,20 @@
 
 #  FOR LOOP
 
-for items in range(5):
-    print(items)
+# for items in range(5):
+#     print(items)
+
+
+
+# ----------->>>>>>>>>  ARRAY   ----------->>>>>>>>>>
+
+marks = [95,78,77, "maths"]
+print(marks)
+print(marks[0],marks[2])
+print(marks[-1])  # Print the last item
+print(marks[-2]) # Print the secod last item
+print(marks[0:2]) # 0:2 is the indexes from 0 to 1, it will print all the items between 0 to 1 indexes
+print(marks[1:3])
+
+for score in marks:
+    print("Score is :",score)
