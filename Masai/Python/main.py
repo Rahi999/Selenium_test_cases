@@ -287,10 +287,19 @@
  
 
 # --------------->>>>>>>>   OBJECTS  --------------->>>>>>>>>>>>>
-marks = {"english":90,"Math" : 91, "Chemistry" : 92}
-print(marks["Chemistry"])
-marks["Physics"] = 97
-print(marks)
+# marks = {"english":90,"Math" : 91, "Chemistry" : 92}
+# print(marks["Chemistry"])
+# marks["Physics"] = 97
+# print(marks)
 
-marks["Physics"] = 99
-print(marks)
+# marks["Physics"] = 99
+# print(marks)
+
+
+
+#   --------->>>>>>>>>>>  FUNCTION   ------------->>>>>>>>>>>
+#  Module Functions
+from math import sqrt
+from math import *
+print(sqrt(4))
+print(sqrt(16))
