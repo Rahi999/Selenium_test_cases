@@ -170,22 +170,30 @@
 # ------------->>>>>>>>>   LOOPS   ------------------>>>>>>>>>
 
 # WHILE LOOP
-i = 1
-while i <= 5:
-    print(i)
-    i+=1
+# i = 1
+# while i <= 5:
+#     print(i)
+#     i+=1
 
 
-j = 1
-while j <= 5:
-    print(j* "*")
-    j+=1
+# j = 1
+# while j <= 5:
+#     print(j* "*")
+#     j+=1
 
 
-k = 1
-while k <= 10:
-    if k%2 == 0:
-        print(k)
-    elif k == 10:
-        print(k)    
-    k+=1        
+# k = 1
+# while k <= 10:
+#     if k%2 == 0:
+#         print(k)
+#     elif k == 10:
+#         print(k)    
+#     k+=1        
+
+
+
+
+#  FOR LOOP
+
+for items in range(5):
+    print(items)
