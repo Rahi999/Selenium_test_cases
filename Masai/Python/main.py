@@ -53,7 +53,7 @@
 
 # ------------>>>>>   STRING    -------->>>>>>>>
 
-name = "Tony Stark"
+# name = "Tony Stark"
 # print(name.upper())
 # print(name.lower())
 # print(name.find("Stark"))  # Will return index(5) of S in the "Tony Stark"
@@ -62,6 +62,28 @@ name = "Tony Stark"
 # print(name.replace("T","M"))
 # print(name)
 
-print("T" in name) #will check if T is available inside the name if yes then it will return True else False
-print("Stark" in name)
-print("s" in name)
+# print("T" in name) #will check if T is available inside the name if yes then it will return True else False
+# print("Stark" in name)
+# print("s" in name)
+
+
+
+
+
+# ------->>>>>>>>    Arithmetic operators      -------->>>>>>>>>>>>>
+
+# print(5+2)
+# print(5-2)
+# print(5*2)
+# print(5/2)
+# print(5//2)  # this is print only those number which are before .(point), 5/2=2.5 -> it will print 2 only
+
+# print( 5 % 2)
+# print( 5 ** 2)
+
+# i = 5
+# i = i + 2
+# i += 2
+# i -= 2
+# i *= 2
+# i /= 2
