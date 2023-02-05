@@ -119,15 +119,39 @@
 
 #   if-else statement
 
-age = 16
-if age >= 18:
-    print("You are an adult")
-    print("You can drive")
-elif age < 18 and age > 3:
-    print("You are in school")
-else: 
-    print("You are a child")    
+# age = 16
+# if age >= 18:
+#     print("You are an adult")
+#     print("You can drive")
+# elif age < 18 and age > 3:
+#     print("You are in school")
+# else: 
+#     print("You are a child")    
 
 
 
-print("Thank You")    
+# print("Thank You")    
+
+
+# Mini project
+
+first_number = input("Enter First number: ")
+operator = input("Enter operator(+,-,*,/,%) : ")
+second_number = input("Enter second number : ")
+
+first_number = int(first_number)
+second_number = int(second_number)
+
+if operator == "+":
+    print(first_number+second_number)
+elif operator == "-":
+    print(first_number-second_number)
+elif operator == "*":
+    print(first_number*second_number)
+elif operator == "/":
+    print(first_number/second_number)
+elif operator == "%":
+    print(first_number%second_number)
+else : 
+    print("Invalid Operations")        
+
