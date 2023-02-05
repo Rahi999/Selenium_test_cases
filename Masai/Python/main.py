@@ -105,13 +105,29 @@
 
 # --------->>>>>> Logical Operators   ------------>>>>>>>>>>
 
-# or operator
-print(2 > 3 or 2 > 1)
+# # or operator
+# print(2 > 3 or 2 > 1)
 
-# and operator
-print(3 > 2 and 2 < 1)
+# # and operator
+# print(3 > 2 and 2 < 1)
 
-# not operator
-print(3 > 2)
-print(not 3 > 2)
+# # not operator
+# print(3 > 2)
+# print(not 3 > 2)
 
+
+
+#   if-else statement
+
+age = 16
+if age >= 18:
+    print("You are an adult")
+    print("You can drive")
+elif age < 18 and age > 3:
+    print("You are in school")
+else: 
+    print("You are a child")    
+
+
+
+print("Thank You")    
