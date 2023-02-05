@@ -212,3 +212,14 @@ print(marks[1:3])
 
 for score in marks:
     print("Score is :",score)
+
+
+# push function --->>>> append function
+marks.append(99)
+print(marks)
+
+# shift function --->>>>  insert(index, value)
+
+marks.insert(0,  19)
+marks.insert(2, 17)
+print(marks) 
